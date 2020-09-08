@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color:#808080;
+}
+
+.grid-container {
+    display: grid;
+    justify-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Add Book Button */
+.bookbtn {
+    padding: .5rem 1rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.btn-form {
+    display: none;
+    background: #C8C8C8;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.library-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    height: auto;
+    width: 700px;
+    border-radius: 3px;
+    justify-items: center;
+    justify-content: center;
+    background-color: #A9A9A9;
+    padding: 1rem;
+}
+
+.book {
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid grey;
+    height: auto;
+    width: 100%;
+    background-color: #DCDCDC;
+}
+
+.book h5 {
+    font-weight: 400;
+}
+
+.delete {
+    padding: .25rem;
+    margin: .5rem;
+}
+
+.read {
+    padding: .25rem;
+    margin: .5rem;
+}
